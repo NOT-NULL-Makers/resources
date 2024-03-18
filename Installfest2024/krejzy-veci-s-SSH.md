@@ -114,3 +114,7 @@ pkill stunnel
 dd if=/dev/zero bs=1M status=progress | ssh 172.16.0.1 "cat - > /dev/null"
 # Or create a file filled from /dev/urandom, to prevent compression doing anything, a video file is usually suitable as well
 ```
+
+## Unlock LUKS encrypted volumes over SSH with dropbear
+
+https://www.root.cz/clanky/vzdalene-odemykani-sifrovaneho-disku-na-serveru-s-debianem/
