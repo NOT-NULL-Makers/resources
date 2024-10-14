@@ -50,3 +50,24 @@ https://www.root.cz/clanky/openssh-ma-vlastni-obranu-proti-hadani-hesel-jak-pres
 
 Restrict keyword in authorized_keys
 https://manpages.debian.org/stable/openssh-server/authorized_keys.5.en.html#restrict
+
+Root article by Petr Krčmář about wstunnel:
+
+https://www.root.cz/clanky/websocket-jako-cesta-k-uniku-z-prilis-restriktivni-site/
+
+about tunneling SSH over DNS (iodine):
+
+https://www.root.cz/clanky/tunelujeme-provoz-pomoci-dns-cesta-ven-ze-site/
+
+about sshuttle:
+
+https://www.root.cz/clanky/postavte-si-vpn-pomoci-sshuttle-bude-vam-stacit-pristup-na-ssh/
+
+about embedding Dropbear SSH server into initramfs for e.g. unlocking disks with passwords remotely over SSH:
+https://www.root.cz/clanky/vzdalene-odemykani-sifrovaneho-disku-na-serveru-s-debianem/
+
+(Somebody noted after the lecture, you can even remove LUKS headers from remote systems and provide them on boot e.g. over SSHFS as needed.)
+
+Alternativelly this can be automated without the need for SSH:
+
+https://www.root.cz/clanky/sifrovane-disky-na-serveru-automaticke-odemykani-pomoci-tang-a-clevis/
