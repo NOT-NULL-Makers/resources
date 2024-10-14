@@ -143,3 +143,23 @@ stream {
 
 Check the validity of the configuration `nginx -t` and apply the configuration by `systemctl reload nginx`.
 
+## More Articles to Read
+
+Petr Krčmář about scp/ sftp:
+
+https://www.root.cz/clanky/protokol-scp-mizi-proc-je-jednoduchy-prenos-souboru-po-ssh-problem/
+
+and
+
+https://www.root.cz/clanky/konec-protokolu-scp-plny-der-a-neopravitelny-ale-uzivatelsky-prijemny/
+
+and this commit by Damien Miller:
+
+https://undeadly.org/cgi?action=article;sid=20210910074941 and
+
+OpenSSH 9.0 release notes: https://www.openssh.com/txt/release-9.0
+
+```
+This release switches scp(1) from using the legacy scp/rcp protocol
+to using the SFTP protocol by default.
+```
